@@ -12,5 +12,7 @@ export default function initAccordion() {
 
     accordionList.forEach((item) => {
       item.addEventListener('click', activeAccordion);
-    });  }
+    });
+  }
+  return this;
 }
